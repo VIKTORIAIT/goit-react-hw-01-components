@@ -3,6 +3,7 @@ import styles from './Descriptions.module.css';
 
 const Descriptions = ({ username, tag, location, avatar }) => {
   // const { username, tag, location, avatar } = user;
+
   return (
     <div className={styles.description}>
       <img src={avatar} alt="User avatar" className={styles.avatar} />
